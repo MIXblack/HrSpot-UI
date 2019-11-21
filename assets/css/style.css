@@ -1,5 +1,5 @@
 /*=========================================================
-Author       : Bestwebcreator.
+Author       : Er. Narayan Shaw.
 Template Name: Eduglobal - Education & Courses HTML Template
 Version      : 1.2
 ==============================================================*/
@@ -24,12 +24,15 @@ Version      : 1.2
 	15.START PARALLAX SHAPE DESIGN
 =============================================================*/
 
+ /* Including one css file into other  */
+ @import "variable.css"; 
+
 /*===================================*
   01. GENERAL STYLE
 *===================================*/
 body {
-	background: #ffffff none repeat scroll 0 0;
-    color: #888888;
+	background: var(--secondary) none repeat scroll 0 0;
+    color: var(--secondary-text);
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
 	-webkit-text-size-adjust: 100%;
@@ -38,23 +41,23 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-	color: #292b2c;
+	color: var(--dark);
 	font-family: 'Rubik', sans-serif;
 }
 
 p {
-	color:#888888;
+	color: var(--secondary-text);
 }
 
 a {
-	color: #292b2c;
+	color: var(--dark);
 	text-decoration: none;
 	-webkit-transition: all 0.5s ease;
 	transition: all 0.5s ease;
 }
 
 a:hover {
-	color: #3D9AA6;
+	color: var(--primary);
 	text-decoration: none;
 }
 
@@ -104,44 +107,57 @@ section.small_pb,
 .top_footer.small_pb {
 	padding-bottom: 50px;
 }
+
 .small_padding {
     padding: 30px;
 }
+
 .medium_padding {
     padding: 50px;
 }
+
 .large_padding {
     padding: 100px;
 }
+
 .small_divider {
 	height: 30px;
 }
+
 .medium_divider {
 	height: 50px;
 }
+
 .large_divider {
 	height: 100px;
 }
+
 .padding_eight_all {
 	padding: 8%;
 }
+
 .padding_eight_lr {
 	padding: 0 8%;
 }
+
 .list_none li {
 	list-style:none;
 }
+
 .order_list,
 .disc_list {
 	padding-left: 15px;
 }
+
 .btn:focus,.btn:hover,.btn.active {
 	box-shadow: none;
 	outline: medium none;
 }
+
 button:focus {
 	outline:none;
 }
+
 .btn {
 	border-width: 2px;
 	cursor: pointer;
@@ -153,20 +169,24 @@ button:focus {
 	overflow: hidden;
 	z-index: 1;
 }
+
 .btn.active:focus, .btn:active:focus {
 	box-shadow: none !important;
 }
+
 .btn-default {
 	background-color: #FFBC09;
 	border: 2px solid #FFBC09;
 	color: #ffffff !important;
 	padding: 12px 30px;
 }
+
 .btn-default:hover {
 	background-color: #DF9C00;
 	border-color: #DF9C00;
 	color: #fff;
 }
+
 .btn-default::before {
 	content: "";
 	background-color: rgba(255, 255, 255, 0.5);
@@ -180,10 +200,12 @@ button:focus {
 	transform: skewX(-45deg) translateX(0);
 	transition: all 0.8s ease-in-out;
 }
+
 .btn-default:hover::before {
 	-webkit-transform: skewX(-45deg) translateX(40em);
 	transform: skewX(-45deg) translateX(40em);
 }
+
 .btn-black {
 	border: 2px solid #333;
 	background-color: #333;
@@ -1116,9 +1138,10 @@ button:focus {
 .light_skin .logo_light {
 	display: block;
 }
+
 .light_skin .navbar-nav a,
 .light_skin .navbar-toggler {
-	color: #ffffff;
+	color: var(--secondary);
 }
 .navbar {
 	padding: 0;
@@ -1127,7 +1150,7 @@ button:focus {
 	transition: all 0.5s ease 0s;
 }
 .header_wrap:not([class*="bg_"]):not([class*="bg-"]) {
-	background-color: #fff;
+	background-color: var(--secondary);
 }
 .navbar-expand-lg .navbar-nav li {
 	position: relative;
@@ -1377,10 +1400,10 @@ button:focus {
     border-bottom: 0;
 }
 .bg-dark.light_skin.nav-fixed .navbar-nav > li > a, .bg-dark.light_skin.nav-fixed .navbar-toggler {
-    color: #fff;
+    color: var(--secondary);
 }
 .bg-dark.hover_menu_style2.nav-fixed .navbar-expand-lg .navbar-nav > li > .nav-link::before {
-    background-color: #fff;
+    background-color: var(--secondary);
 }
 .header_wrap.nav-fixed[class*="overlay_"]:before {
 	content: normal;
@@ -1565,8 +1588,9 @@ button:focus {
 }
 .top-header.light_skin .contact_detail li,
 .top-header.light_skin .contact_detail li a {
-	color: #fff;
+	color: var(--dark);
 }
+
 .top-header.dark_skin .contact_detail li {
 	color: #000;
 }
@@ -1737,7 +1761,7 @@ header.light_skin.nav-fixed .social_icons li a:hover {
 	left: 0;
 	height: 25px;
 	width: 1px;
-	background-color: #eee;
+	background-color: var(--dark);
 }
 .header_wrap.light_skin.nav-fixed .btn-outline-white {
 	border: 2px solid #333;
