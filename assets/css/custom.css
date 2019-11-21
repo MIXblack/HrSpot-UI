@@ -11,6 +11,7 @@
 
 .special:hover {
     background-color: var(--special);
+    color: var(--secondary) !important;
 }
 
 a:hover {
@@ -58,18 +59,42 @@ a:hover {
 }
 
 /* Header Menu */
-
-.btn-logoin {
-    background-color: var(--primary);
-    color: var(--secondary) !important;
-    border: none!important;
-    width: 130px;
-    padding: 5px;
-    font-size: 1.1rem;
-    text-transform: uppercase;
+.dropdown-item:hover {
+    background-color: var(--bg-color);
+    color: var(--dark) !important;
 }
 
 .dropdown-login ul {
     padding: 5px !important;
+}
+
+.header_hero h2 {
+	font-size: 3.5rem;
+}
+
+.btn-login li a:hover {
+    color: var(--secondary) !important;
+}
+
+/* Courses */
+.batches {
+    font-size: 1.2rem !important;
+}
+
+/* Footer */
+.dark-bg {
+    background-color: var(--bg-color) !important;  
+}
+
+.bg_footer {
+    background-color: var(--primary);
+}
+
+.light-bg {
+    background-color: var(--secondary) !important; 
+}
+
+.mix_p_1 {
+    padding: 2rem !important;
 }
 

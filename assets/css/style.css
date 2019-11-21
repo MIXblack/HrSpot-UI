@@ -175,16 +175,15 @@ button:focus {
 }
 
 .btn-default {
-	background-color: #FFBC09;
-	border: 2px solid #FFBC09;
-	color: #ffffff !important;
+	background-color: var(--primary) !important;
+	border: 2px solid var(--primary) !important;
+	color: var(--secondary) !important;
 	padding: 12px 30px;
 }
 
 .btn-default:hover {
-	background-color: #DF9C00;
-	border-color: #DF9C00;
-	color: #fff;
+	border-color: var(--primary) !important;
+	color: var(--secondary) !important;
 }
 
 .btn-default::before {
@@ -409,6 +408,7 @@ button:focus {
 	margin: 0;
 	text-transform: capitalize;
 }
+
 .heading_s1 h1,.heading_s1 h2, .heading_s1 h3, .heading_s1 h4, .heading_s1 h5, .heading_s1 h6 {
 	margin-bottom: 1rem;
 	text-transform: capitalize;
@@ -568,8 +568,8 @@ button:focus {
 	z-index: 99;
 }
 .scrollup:hover {
-	background-color: #FFBC09;
-	color: #fff;
+	background-color: var(--primary) !important;
+	color: var(--secondary) !important;
 }
 .scrollup:focus {
 	color:#fff;
@@ -1195,7 +1195,7 @@ button:focus {
 .dark_skin .navbar-expand-lg .navbar-nav .dropdown-menu li a:hover, 
 .dark_skin .navbar-expand-lg .navbar-nav .dropdown-menu > ul > li:hover > a, 
 .dark_skin .navbar-expand-lg .navbar-nav .dropdown-menu > ul > .mega-menu-col ul > li:hover > a {
-	color: #FFBC09;
+	color: var(--primary);
 }
 .dark_skin .navbar-expand-lg .navbar-nav .dropdown-item, 
 .dark_skin .navbar-expand-lg .navbar-nav .dropdown-header,
@@ -1241,7 +1241,7 @@ button:focus {
 }
 .navbar-expand-lg .navbar-nav > li > a.active, 
 .navbar-expand-lg .navbar-nav > li:hover > a {
-	color: #FFBC09;
+	color: var(--primary) !important;
 }
 .main_menu_capitalize .navbar-expand-lg .navbar-nav > li > .nav-link {
 	text-transform: capitalize;
@@ -1836,10 +1836,11 @@ marquee {
     display: block;
 }
 .news_ticker a {
-    padding: 0 10px;
+	padding: 0 10px;
+	color: var(--secondary) !important;
 }
 .news_ticker a:hover {
-    color: #fff;
+    color: var(--secondary) !important;
 }
 /*===================================*
   02.END HEADER DESIGN
