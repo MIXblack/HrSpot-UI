@@ -972,7 +972,7 @@ button:focus {
 	 -webkit-animation: ripple 1.8s infinite ;
     -moz-animation: ripple 1.8s infinite ;
     -o-animation: ripple 1.8s infinite ;
-    -ms-transition:ripple 1.8s infinite ;
+    /* -ms-transition:ripple 1.8s infinite ; */
 	animation: ripple 1.8s infinite ;
 	background-color: #ffffff;
 	border-radius: 100%;
@@ -1863,11 +1863,13 @@ marquee {
 	margin-bottom: 20px;
 	vertical-align: bottom;
 }
+
 .banner_content p {
 	color: #333;
 	font-size: 18px;
 	margin-bottom: 35px;
 }
+
 .banner_content.text_white p {
 	color: #fff;
 }
@@ -2022,9 +2024,9 @@ marquee {
   04. START ICON BOX CSS
 *===================================*/
 .icon_box {
-	padding: 30px;
+	/* padding: -100px; */
 	z-index: 9;
-	margin-top: 30px;
+	/* margin-top: -20px; */
 	transition: all 0.5s ease-in-out;
 }
 .box_icon,
@@ -2052,7 +2054,7 @@ marquee {
 }
 .icon_box_style1 .box_icon {
 	float: left;
-	margin-right: 20px;
+	/* margin-right: 20px; */
 }
 .icon_box_style1.icon_box:hover {
 	box-shadow: 0 0 14px rgba(0,0,0,0.05);
@@ -2169,20 +2171,35 @@ marquee {
 .cat_overlap_box {
     top: -50%;
 }
+
+/* .single_categories {
+	border: 1px solid var(--dark);
+	border-radius: 5px;
+} */
+
 .single_categories a  {
 	border-radius: 5px;
+	border: 1px solid var(--secondary);
 	display: block;
 	text-align: center;
 	padding: 30px 20px;
-	color: #fff;
+	color: var(--text-one);
 }
+
+.single_categories h3 {
+	font-size: 2.2rem;
+	font-weight: 300;
+	color: var(--text-one);
+}
+
 .single_categories a:hover {
-	color: #fff;
+	color: var(--primary);
+	border: 1px solid var(--primary);
 }
 .single_categories i {
 	display: block;
 	margin-bottom: 10px;
-	font-size: 30px;
+	font-size: 2.2rem;
 }
 .cat_style1 a {
 	background-color: rgba(255,255,255,0.2);
@@ -2194,7 +2211,7 @@ marquee {
 	background-color: #FFBC09;
 }
 .cat_style2 {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .cat_style2.single_categories a {
     border-radius: 10px;

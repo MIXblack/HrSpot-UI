@@ -18,6 +18,14 @@ a:hover {
     color: var(--primary) !important;
 }
 
+.text-color {
+    color: var(--text);
+}
+
+.text-header {
+    color: var(--text-one);
+}
+
 /* Top Menu */
 .btn-brochure {
     color: var(--special) !important;
@@ -68,17 +76,45 @@ a:hover {
     padding: 5px !important;
 }
 
-.header_hero h2 {
-	font-size: 3.5rem;
+.banner_content h2 {
+	font-size: 3.5rem !important;
+}
+
+.banner_content p {
+	font-size: 16px !important;
 }
 
 .btn-login li a:hover {
     color: var(--secondary) !important;
 }
 
+/* Header Banner */
+.text-banner {
+    color: var(--primary);
+}
+
+/* Placement */
+.placement-box {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+
 /* Courses */
 .batches {
     font-size: 1.2rem !important;
+}
+
+/* Advantage */
+.advantage {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.single_categories h5 {
+    color: var(--text-one);
+    font-weight: 500;
 }
 
 /* Footer */
@@ -92,6 +128,10 @@ a:hover {
 
 .light-bg {
     background-color: var(--secondary) !important; 
+}
+
+.primary-bg {
+    background: url('../images/banner/banner1.jpg') !important; 
 }
 
 .mix_p_1 {
