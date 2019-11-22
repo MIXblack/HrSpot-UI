@@ -93,6 +93,29 @@ a:hover {
     color: var(--primary);
 }
 
+/* Pop Up Login */
+.login {
+    padding: 4rem;
+}
+
+.login-details {
+    padding: .5rem;
+}
+
+.login-details a {
+    border-color: var(--dark);
+}
+
+.login-details a i {
+    font-size: 3rem !important;
+    color: var(--dark) !important;
+}
+
+.login-details h3 {
+    color: var(--dark) !important;
+    font-size: 1.1rem !important;
+}
+
 /* Placement */
 .placement-box {
     border-radius: 50%;
@@ -104,6 +127,15 @@ a:hover {
 /* Courses */
 .batches {
     font-size: 1.2rem !important;
+}
+
+/* Trainer */
+.team_img {
+    height: 250px !important;
+}
+
+.trainer-title {
+    font-size: 2rem;
 }
 
 /* Advantage */

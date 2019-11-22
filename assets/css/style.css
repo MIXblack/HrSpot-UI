@@ -2208,7 +2208,7 @@ marquee {
 	padding: 50px 20px;
 }
 .cat_style1 a:hover {
-	background-color: #FFBC09;
+	background-color: var(--primary);
 }
 .cat_style2 {
     margin-top: 20px;
