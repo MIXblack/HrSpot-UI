@@ -1,5 +1,5 @@
 /*=========================================================
-Author       : Er. Narayan Shaw.
+Author       : Bestwebcreator.
 Template Name: Eduglobal - Education & Courses HTML Template
 Version      : 1.2
 ==============================================================*/
@@ -24,140 +24,111 @@ Version      : 1.2
 	15.START PARALLAX SHAPE DESIGN
 =============================================================*/
 
- /* Including one css file into other  */
- @import "variable.css"; 
-
 /*===================================*
   01. GENERAL STYLE
 *===================================*/
 body {
-	background: var(--secondary) none repeat scroll 0 0;
-    color: var(--secondary-text);
+	background: #ffffff none repeat scroll 0 0;
+    color: #888888;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
 	-webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing:grayscale;
 }
-
 h1,h2,h3,h4,h5,h6 {
-	color: var(--dark);
+	color: #292b2c;
 	font-family: 'Rubik', sans-serif;
 }
-
 p {
-	color: var(--secondary-text);
+	color:#888888;
 }
-
 a {
-	color: var(--dark);
+	color: #292b2c;
 	text-decoration: none;
 	-webkit-transition: all 0.5s ease;
 	transition: all 0.5s ease;
 }
-
 a:hover {
-	color: var(--primary);
+	color: #FFBC09;
 	text-decoration: none;
 }
-
 a:focus {
 	outline: none;
 	text-decoration: none;
 }
-
 button {
 	-webkit-transition: all 0.5s ease;
 	transition: all 0.5s ease;
 }
-
 img {
 	max-width: 100%;
 }
-
 ul,li,ol {
 	margin: 0;
 	padding: 0;
 }
-
 fieldset {
 	border: 0 none;
 	margin: 0 auto;
 	padding: 0;
 }
-
 input:focus,
 textarea:focus {
 	outline: none;
 	box-shadow:  none !important;
 }
-
 section {
 	padding: 100px 0;
 	position:relative;
 	width: 100%;
 }
-
 section.small_pt,
 .top_footer.small_pt {
 	padding-top: 50px;
 }
-
 section.small_pb,
 .top_footer.small_pb {
 	padding-bottom: 50px;
 }
-
 .small_padding {
     padding: 30px;
 }
-
 .medium_padding {
     padding: 50px;
 }
-
 .large_padding {
     padding: 100px;
 }
-
 .small_divider {
 	height: 30px;
 }
-
 .medium_divider {
 	height: 50px;
 }
-
 .large_divider {
 	height: 100px;
 }
-
 .padding_eight_all {
 	padding: 8%;
 }
-
 .padding_eight_lr {
 	padding: 0 8%;
 }
-
 .list_none li {
 	list-style:none;
 }
-
 .order_list,
 .disc_list {
 	padding-left: 15px;
 }
-
 .btn:focus,.btn:hover,.btn.active {
 	box-shadow: none;
 	outline: medium none;
 }
-
 button:focus {
 	outline:none;
 }
-
 .btn {
 	border-width: 2px;
 	cursor: pointer;
@@ -169,23 +140,20 @@ button:focus {
 	overflow: hidden;
 	z-index: 1;
 }
-
 .btn.active:focus, .btn:active:focus {
 	box-shadow: none !important;
 }
-
 .btn-default {
-	background-color: var(--primary) !important;
-	border: 2px solid var(--primary) !important;
-	color: var(--secondary) !important;
+	background-color: #FFBC09;
+	border: 2px solid #FFBC09;
+	color: #ffffff !important;
 	padding: 12px 30px;
 }
-
 .btn-default:hover {
-	border-color: var(--primary) !important;
-	color: var(--secondary) !important;
+	background-color: #DF9C00;
+	border-color: #DF9C00;
+	color: #fff;
 }
-
 .btn-default::before {
 	content: "";
 	background-color: rgba(255, 255, 255, 0.5);
@@ -199,12 +167,10 @@ button:focus {
 	transform: skewX(-45deg) translateX(0);
 	transition: all 0.8s ease-in-out;
 }
-
 .btn-default:hover::before {
 	-webkit-transform: skewX(-45deg) translateX(40em);
 	transform: skewX(-45deg) translateX(40em);
 }
-
 .btn-black {
 	border: 2px solid #333;
 	background-color: #333;
@@ -408,7 +374,6 @@ button:focus {
 	margin: 0;
 	text-transform: capitalize;
 }
-
 .heading_s1 h1,.heading_s1 h2, .heading_s1 h3, .heading_s1 h4, .heading_s1 h5, .heading_s1 h6 {
 	margin-bottom: 1rem;
 	text-transform: capitalize;
@@ -568,8 +533,8 @@ button:focus {
 	z-index: 99;
 }
 .scrollup:hover {
-	background-color: var(--primary) !important;
-	color: var(--secondary) !important;
+	background-color: #FFBC09;
+	color: #fff;
 }
 .scrollup:focus {
 	color:#fff;
@@ -972,7 +937,7 @@ button:focus {
 	 -webkit-animation: ripple 1.8s infinite ;
     -moz-animation: ripple 1.8s infinite ;
     -o-animation: ripple 1.8s infinite ;
-    /* -ms-transition:ripple 1.8s infinite ; */
+    -ms-transition:ripple 1.8s infinite ;
 	animation: ripple 1.8s infinite ;
 	background-color: #ffffff;
 	border-radius: 100%;
@@ -1138,10 +1103,9 @@ button:focus {
 .light_skin .logo_light {
 	display: block;
 }
-
 .light_skin .navbar-nav a,
 .light_skin .navbar-toggler {
-	color: var(--secondary);
+	color: #ffffff;
 }
 .navbar {
 	padding: 0;
@@ -1150,7 +1114,7 @@ button:focus {
 	transition: all 0.5s ease 0s;
 }
 .header_wrap:not([class*="bg_"]):not([class*="bg-"]) {
-	background-color: var(--secondary);
+	background-color: #fff;
 }
 .navbar-expand-lg .navbar-nav li {
 	position: relative;
@@ -1195,7 +1159,7 @@ button:focus {
 .dark_skin .navbar-expand-lg .navbar-nav .dropdown-menu li a:hover, 
 .dark_skin .navbar-expand-lg .navbar-nav .dropdown-menu > ul > li:hover > a, 
 .dark_skin .navbar-expand-lg .navbar-nav .dropdown-menu > ul > .mega-menu-col ul > li:hover > a {
-	color: var(--primary);
+	color: #FFBC09;
 }
 .dark_skin .navbar-expand-lg .navbar-nav .dropdown-item, 
 .dark_skin .navbar-expand-lg .navbar-nav .dropdown-header,
@@ -1241,7 +1205,7 @@ button:focus {
 }
 .navbar-expand-lg .navbar-nav > li > a.active, 
 .navbar-expand-lg .navbar-nav > li:hover > a {
-	color: var(--primary) !important;
+	color: #FFBC09;
 }
 .main_menu_capitalize .navbar-expand-lg .navbar-nav > li > .nav-link {
 	text-transform: capitalize;
@@ -1400,10 +1364,10 @@ button:focus {
     border-bottom: 0;
 }
 .bg-dark.light_skin.nav-fixed .navbar-nav > li > a, .bg-dark.light_skin.nav-fixed .navbar-toggler {
-    color: var(--secondary);
+    color: #fff;
 }
 .bg-dark.hover_menu_style2.nav-fixed .navbar-expand-lg .navbar-nav > li > .nav-link::before {
-    background-color: var(--secondary);
+    background-color: #fff;
 }
 .header_wrap.nav-fixed[class*="overlay_"]:before {
 	content: normal;
@@ -1588,9 +1552,8 @@ button:focus {
 }
 .top-header.light_skin .contact_detail li,
 .top-header.light_skin .contact_detail li a {
-	color: var(--dark);
+	color: #fff;
 }
-
 .top-header.dark_skin .contact_detail li {
 	color: #000;
 }
@@ -1761,7 +1724,7 @@ header.light_skin.nav-fixed .social_icons li a:hover {
 	left: 0;
 	height: 25px;
 	width: 1px;
-	background-color: var(--dark);
+	background-color: #eee;
 }
 .header_wrap.light_skin.nav-fixed .btn-outline-white {
 	border: 2px solid #333;
@@ -1836,11 +1799,10 @@ marquee {
     display: block;
 }
 .news_ticker a {
-	padding: 0 10px;
-	color: var(--secondary) !important;
+    padding: 0 10px;
 }
 .news_ticker a:hover {
-    color: var(--secondary) !important;
+    color: #fff;
 }
 /*===================================*
   02.END HEADER DESIGN
@@ -1863,13 +1825,11 @@ marquee {
 	margin-bottom: 20px;
 	vertical-align: bottom;
 }
-
 .banner_content p {
 	color: #333;
 	font-size: 18px;
 	margin-bottom: 35px;
 }
-
 .banner_content.text_white p {
 	color: #fff;
 }
@@ -2024,9 +1984,9 @@ marquee {
   04. START ICON BOX CSS
 *===================================*/
 .icon_box {
-	/* padding: -100px; */
+	padding: 30px;
 	z-index: 9;
-	/* margin-top: -20px; */
+	margin-top: 30px;
 	transition: all 0.5s ease-in-out;
 }
 .box_icon,
@@ -2054,7 +2014,7 @@ marquee {
 }
 .icon_box_style1 .box_icon {
 	float: left;
-	/* margin-right: 20px; */
+	margin-right: 20px;
 }
 .icon_box_style1.icon_box:hover {
 	box-shadow: 0 0 14px rgba(0,0,0,0.05);
@@ -2171,35 +2131,20 @@ marquee {
 .cat_overlap_box {
     top: -50%;
 }
-
-/* .single_categories {
-	border: 1px solid var(--dark);
-	border-radius: 5px;
-} */
-
 .single_categories a  {
 	border-radius: 5px;
-	border: 1px solid var(--secondary);
 	display: block;
 	text-align: center;
 	padding: 30px 20px;
-	color: var(--text-one);
+	color: #fff;
 }
-
-.single_categories h3 {
-	font-size: 2.2rem;
-	font-weight: 300;
-	color: var(--text-one);
-}
-
 .single_categories a:hover {
-	color: var(--primary);
-	border: 1px solid var(--primary);
+	color: #fff;
 }
 .single_categories i {
 	display: block;
 	margin-bottom: 10px;
-	font-size: 2.2rem;
+	font-size: 30px;
 }
 .cat_style1 a {
 	background-color: rgba(255,255,255,0.2);
@@ -2208,10 +2153,10 @@ marquee {
 	padding: 50px 20px;
 }
 .cat_style1 a:hover {
-	background-color: var(--primary);
+	background-color: #FFBC09;
 }
 .cat_style2 {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .cat_style2.single_categories a {
     border-radius: 10px;
