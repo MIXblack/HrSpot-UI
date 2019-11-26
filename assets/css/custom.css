@@ -80,3 +80,12 @@
 .mix_p_1 {
     padding: 2rem !important;
 }
+
+/* Footer */
+.footer-text a {
+    color: var(--secondary) !important;
+}
+/* 
+.footer-text a:hover {
+    color: var(--secondary) !important;
+} */
