@@ -1,0 +1,82 @@
+ /* Including one css file into other  */
+ @import "variables.css"; 
+
+/* =================================================== */
+
+/* Utilities */
+
+
+/* Top Menu */
+.btn-brochure {
+    color: var(--secondary) !important;
+    border: 1px solid var(--secondary);
+    padding: 6px 20px !important;
+}
+
+.btn-brochure:hover {
+    border: 1px solid var(--secondary);
+}
+
+.btn-brochure i {
+    font-size: 12px;
+}
+
+/* Social Icons */
+.facebook,
+.twitter,
+.linkedin,
+.instagram,
+.pinterest,
+.tumblr {
+    color: var(--secondary);
+}
+
+.facebook:hover {
+    color: #3b5998 !important;
+}
+
+.twitter:hover {
+    color: #00acee !important;
+}
+
+.linkedin:hover {
+    color: #0e76a8 !important;
+}
+
+.instagram:hover {
+    color: rgba(228, 64, 95) !important;
+}
+
+.pinterest:hover {
+    color: #c8232c !important;
+}
+
+.tumblr:hover {
+    color: #34526f !important;
+}
+
+/* Bottom Menu */
+.brand-logo img {
+    width: 80%;
+}
+
+/* Flash SMS */
+.news_ticker,
+.news_ticker a {
+    color: var(--secondary) !important;
+}
+
+/* Placement Section */
+.placement-box {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.dark-bg {
+    background-color: var(--bg-color) !important;  
+}
+
+.mix_p_1 {
+    padding: 2rem !important;
+}
